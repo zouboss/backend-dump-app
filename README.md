@@ -1,3 +1,50 @@
+
+#  - Plateforme d'entraînement aux certifications IT
+
+Ce projet est une **plateforme web complète** dédiée à la préparation aux certifications IT, **.
+
+## 🚀 Objectifs
+
+- Permettre aux utilisateurs de s'entraîner aux certifications (Cloud, DevOps, Développement…)
+- Fournir une interface web fluide et responsive
+- Offrir un back-office sécurisé pour la gestion des utilisateurs, questions, et résultats
+- 
+
+---
+
+## 🛠️ Stack technique
+
+### Frontend
+- [React.js](https://reactjs.org/)
+- TailwindCSS  
+- Axios, React Router
+
+### Backend
+- nestjs (https://docs.nestjs.com/)
+
+### Base de données
+- PostgreSQL
+
+
+---
+
+## 📦 Fonctionnalités principales
+
+- 🔐 Authentification des utilisateurs
+- 📚 Accès à des questions d'examen classées par certification
+- 📊 Tableau de bord utilisateur avec suivi des résultats
+- 
+
+---
+
+
+```bash
+# Cloner le dépôt
+git clone https://github.com/ton-nom/projet-fil-rouge.git
+cd projet-fil-rouge
+
+# Lancer avec Docker Compose
+docker-compose up --build
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
